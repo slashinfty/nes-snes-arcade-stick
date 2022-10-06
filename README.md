@@ -3,7 +3,7 @@ How the NES & SNES controllers function: https://gamesx.com/wiki/doku.php?id=con
 
 The link above contains controller port pinouts. Use a multimeter to identify the wires in the extension cable, as they differ by manufacturer.
 
-## Schematic
+## Schematic (KiCad)
 
 Parts:
 * CD4021 (x2)
@@ -14,13 +14,13 @@ Parts:
 
 Todo
 
-## Stripboard Layout
+## Stripboard Layout (DIY Layout Creator)
 
 Note: the colors listed in the layout below may not match your wire colors.
 
 ![stripboard layout](/images/joystick.png)
 
-## Case
+## Case (OpenSCAD)
 
 Parts:
 * Joystick [AliExpress](https://www.aliexpress.us/item/2251832847025726.html)
