@@ -16,13 +16,15 @@ Todo
 
 ## Stripboard Layout
 
+Note: the colors listed in the layout below may not match your wire colors.
+
 ![stripboard layout](/images/joystick.png)
 
 ## Case
 
 Parts:
-* Joystick
-* Buttons
+* Joystick [AliExpress](https://www.aliexpress.us/item/2251832847025726.html)
+* Buttons [AliExpress](https://www.aliexpress.us/item/3256801226554958.html)
 * NES controller extension cable
 * SNES controller extension cable
 
