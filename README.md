@@ -12,7 +12,7 @@ Parts:
 * SPDT switch (x1)
 * 10k resistors (x16)
 
-Todo
+![schematic](/images/schematic.png)
 
 ## Stripboard Layout (DIY Layout Creator)
 
