@@ -29,4 +29,8 @@ Note: the colors listed in the layout below may not match your wire colors.
 
 ## Case (OpenSCAD)
 
-Todo
+![case](/images/case.png)
+
+## Wiring Pictures
+
+TODO
