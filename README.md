@@ -7,7 +7,6 @@ The link above contains controller port pinouts. Use a multimeter to identify th
 
 * CD4021 (x2)
 * Schottsky diodes (x2)
-* General purpose diodes (x4)
 * SPDT switch (x1)
 * 10k resistors (x16)
 * Joystick (x1) [AliExpress](https://www.aliexpress.us/item/2251832847025726.html)
