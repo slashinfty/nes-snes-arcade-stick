@@ -2,7 +2,7 @@
 <project>
   <fileVersion>
     <major>4</major>
-    <minor>29</minor>
+    <minor>35</minor>
     <build>0</build>
   </fileVersion>
   <title>New Project</title>
@@ -46,28 +46,6 @@
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
       <point x="4.2" y="4.3"/>
-    </diylc.connectivity.TraceCut>
-    <diylc.connectivity.TraceCut>
-      <name>Cut2</name>
-      <size value="0.08" unit="in"/>
-      <fillColor hex="ffffff"/>
-      <borderColor hex="ff0000"/>
-      <boardColor hex="f8ebb3"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <orientation>VERTICAL</orientation>
-      <holeSpacing value="0.1" unit="in"/>
-      <point x="4.2" y="4.5"/>
-    </diylc.connectivity.TraceCut>
-    <diylc.connectivity.TraceCut>
-      <name>Cut3</name>
-      <size value="0.08" unit="in"/>
-      <fillColor hex="ffffff"/>
-      <borderColor hex="ff0000"/>
-      <boardColor hex="f8ebb3"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <orientation>VERTICAL</orientation>
-      <holeSpacing value="0.1" unit="in"/>
-      <point x="4.2" y="4.7"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Jumper>
       <name>J1</name>
@@ -789,42 +767,6 @@
       <name></name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="4.1" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="4.5" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="4.1" y="4.7"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="4.5" y="4.7"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
       <point x="4.6" y="4.3"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
@@ -1329,52 +1271,6 @@
       <value></value>
       <markerColor hex="dddddd"/>
     </diylc.semiconductors.DiodePlastic>
-    <diylc.semiconductors.DiodeGlass>
-      <name>D2</name>
-      <alpha>127</alpha>
-      <length value="0.2" unit="in"/>
-      <width value="0.09" unit="in"/>
-      <points>
-        <point x="4.1" y="4.5"/>
-        <point x="4.5" y="4.5"/>
-        <point x="4.3" y="4.5"/>
-      </points>
-      <bodyColor hex="e1f0ff"/>
-      <borderColor hex="808080"/>
-      <labelColor hex="ffffff"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value>1N4148</value>
-      <markerColor hex="808080"/>
-      <insideColor hex="e66e31"/>
-    </diylc.semiconductors.DiodeGlass>
-    <diylc.semiconductors.DiodeGlass>
-      <name>D3</name>
-      <alpha>127</alpha>
-      <length value="0.2" unit="in"/>
-      <width value="0.09" unit="in"/>
-      <points>
-        <point x="4.1" y="4.7"/>
-        <point x="4.5" y="4.7"/>
-        <point x="4.3" y="4.7"/>
-      </points>
-      <bodyColor hex="e1f0ff"/>
-      <borderColor hex="808080"/>
-      <labelColor hex="ffffff"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value>1N4148</value>
-      <markerColor hex="808080"/>
-      <insideColor hex="e66e31"/>
-    </diylc.semiconductors.DiodeGlass>
     <diylc.passive.Resistor>
       <name>R1</name>
       <alpha>127</alpha>
@@ -1693,7 +1589,6 @@
       <text>+5V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1704,7 +1599,6 @@
       <text>GND</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1715,7 +1609,6 @@
       <text>Clock</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1726,7 +1619,6 @@
       <text>Data</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1737,7 +1629,6 @@
       <text>Latch</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1748,7 +1639,6 @@
       <text>SPDT Center</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1759,7 +1649,6 @@
       <text>SPDT Side</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1770,7 +1659,6 @@
       <text>+5V</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1781,7 +1669,6 @@
       <text>GND</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1824,28 +1711,6 @@
       <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
-    <diylc.connectivity.TraceCut>
-      <name>Cut20</name>
-      <size value="0.08" unit="in"/>
-      <fillColor hex="ffffff"/>
-      <borderColor hex="ff0000"/>
-      <boardColor hex="f8ebb3"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <orientation>VERTICAL</orientation>
-      <holeSpacing value="0.1" unit="in"/>
-      <point x="6.2" y="4.7"/>
-    </diylc.connectivity.TraceCut>
-    <diylc.connectivity.TraceCut>
-      <name>Cut21</name>
-      <size value="0.08" unit="in"/>
-      <fillColor hex="ffffff"/>
-      <borderColor hex="ff0000"/>
-      <boardColor hex="f8ebb3"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <orientation>VERTICAL</orientation>
-      <holeSpacing value="0.1" unit="in"/>
-      <point x="6.2" y="4.5"/>
-    </diylc.connectivity.TraceCut>
     <diylc.connectivity.TraceCut>
       <name>Cut22</name>
       <size value="0.08" unit="in"/>
@@ -2046,42 +1911,6 @@
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="5.9" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="6.3" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="6.3" y="4.7"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <name></name>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="5.9" y="4.7"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-    </diylc.connectivity.SolderPad>
     <diylc.semiconductors.DIL__IC>
       <name>IC1</name>
       <alpha>76</alpha>
@@ -2209,59 +2038,12 @@
       <value></value>
       <markerColor hex="dddddd"/>
     </diylc.semiconductors.DiodePlastic>
-    <diylc.semiconductors.DiodeGlass>
-      <name>D5</name>
-      <alpha>127</alpha>
-      <length value="0.2" unit="in"/>
-      <width value="0.09" unit="in"/>
-      <points>
-        <point x="6.3" y="4.5"/>
-        <point x="5.9" y="4.5"/>
-        <point x="6.1" y="4.5"/>
-      </points>
-      <bodyColor hex="e1f0ff"/>
-      <borderColor hex="808080"/>
-      <labelColor hex="ffffff"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value>1N4148</value>
-      <markerColor hex="808080"/>
-      <insideColor hex="e66e31"/>
-    </diylc.semiconductors.DiodeGlass>
-    <diylc.semiconductors.DiodeGlass>
-      <name>D6</name>
-      <alpha>127</alpha>
-      <length value="0.2" unit="in"/>
-      <width value="0.09" unit="in"/>
-      <points>
-        <point x="6.3" y="4.7"/>
-        <point x="5.9" y="4.7"/>
-        <point x="6.1" y="4.7"/>
-      </points>
-      <bodyColor hex="e1f0ff"/>
-      <borderColor hex="808080"/>
-      <labelColor hex="ffffff"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <value>1N4148</value>
-      <markerColor hex="808080"/>
-      <insideColor hex="e66e31"/>
-    </diylc.semiconductors.DiodeGlass>
     <diylc.misc.Label>
       <name>L10</name>
       <point x="6.5" y="4.5"/>
       <text>Clock</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2272,7 +2054,6 @@
       <text>Data</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2283,7 +2064,6 @@
       <text>Latch</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2346,7 +2126,6 @@
       <text>B</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2357,7 +2136,6 @@
       <text>Up</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2368,7 +2146,6 @@
       <text>Down</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2379,7 +2156,6 @@
       <text>Left</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2390,7 +2166,6 @@
       <text>Right</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2401,7 +2176,6 @@
       <text>A</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2412,7 +2186,6 @@
       <text>X</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2423,7 +2196,6 @@
       <text>L</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2434,7 +2206,6 @@
       <text>R</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2445,7 +2216,6 @@
       <text>Start</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2456,7 +2226,6 @@
       <text>Select</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -2467,29 +2236,26 @@
       <text>Y</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>LEFT</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
-      <name>L25</name>
-      <point x="3.3" y="4.5"/>
-      <text>NES&lt;br&gt;+5V: Red&lt;br&gt;GND: White&lt;br&gt;Data: Black&lt;br&gt;Clock: Green&lt;br&gt;Latch: Yellow</text>
-      <font reference="../../diylc.misc.Label/font"/>
+      <name>LAB1</name>
+      <point x="3.5" y="4.5"/>
+      <text>NES</text>
+      <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
-      <name>L26</name>
-      <point x="7.1" y="4.7"/>
-      <text>SNES&lt;br&gt;+5V: Brown&lt;br&gt;GND: Black&lt;br&gt;Data: Red&lt;br&gt;Clock: Orange&lt;br&gt;Latch: Yellow</text>
+      <name>LAB2</name>
+      <point x="6.9" y="4.7"/>
+      <text>SNES</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
-      <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>

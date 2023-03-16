@@ -23,14 +23,8 @@ Note: the Y button for SNES will be the B button for NES, and the B button for S
 
 ## Stripboard Layout (DIY Layout Creator)
 
-Note: the colors listed in the layout below may not match your wire colors.
-
-![stripboard layout](/images/joystick.png)
+![stripboard layout](/images/layout.png)
 
 ## Case (OpenSCAD)
 
 ![case](/images/case.png)
-
-## Wiring Pictures
-
-TODO
