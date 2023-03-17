@@ -1,4 +1,6 @@
 # nes-snes-arcade-stick
+![joystick](/images/joystick.jpg)
+
 How the NES & SNES controllers function: https://gamesx.com/wiki/doku.php?id=controls:nes_snes_controller
 
 The link above contains controller port pinouts. Use a multimeter to identify the wires in the extension cable, as they differ by manufacturer.
